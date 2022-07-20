@@ -1,0 +1,42 @@
+.search-div{
+    display: grid;
+    justify-content: center;
+}
+.search-div form button{
+    margin-left: 20px;
+    margin-top: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+
+}
+.search-div form button:hover{
+    background-color: rgb(27, 25, 25);
+    color: rgb(240, 248, 237);
+    text-shadow: 0 0 10px peachpuff,
+    0 0 20px rgb(89, 100, 86),
+    0 0 40px rgb(89, 100, 86),
+    0 0 60px rgb(89, 100, 86),
+    0 0 10px rgb(89, 100, 86);
+}
+
+
+
+
+
+.allcard-main{
+    display: grid;
+    justify-content: center;
+    gap: 30px;
+    
+}
+.allcard{
+    width: 800px;
+    /* background-color: aqua; */
+    height: 100vh;
+    display: grid;
+    gap: 50px;
+    justify-content: center;
+
+    overflow: scroll;
+}

@@ -1,0 +1,98 @@
+.home-page-main{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(191, 223, 223);
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    
+}
+
+.home-page-child2 img{
+    width: 800px;
+    height: 750px;
+    
+}
+.home-page-child1{
+    display: grid;
+    /* /* align-items: center; */
+    justify-content: center;
+    
+}
+
+.home-page-data{
+    padding-top: 100px;
+}
+.home-page-title{
+    font-size: 60px;
+    font-weight: 500;
+    
+    
+}
+
+.home-page-title span:nth-child(1){
+    color: rgb(240, 248, 237);
+    text-shadow: 0 0 10px peachpuff,
+    0 0 20px rgb(89, 100, 86),
+    0 0 40px rgb(89, 100, 86),
+    0 0 60px rgb(89, 100, 86),
+    0 0 10px rgb(89, 100, 86);
+}
+.home-page-title span:nth-child(2){
+    color: rgb(240, 248, 237);
+    text-shadow: 0 0 10px peachpuff,
+    0 0 20px rgb(12, 195, 103),
+    0 0 40px rgb(12, 195, 103),
+    0 0 60px rgb(12, 195, 103),
+    0 0 10px rgb(12, 195, 103);
+}
+.home-page-title span:nth-child(3){
+    color: rgb(240, 248, 237);
+    text-shadow: 0 0 10px peachpuff,
+    0 0 20px rgb(228, 76, 188),
+    0 0 40px rgb(228, 76, 188),
+    0 0 60px rgb(228, 76, 188),
+    0 0 10px rgb(228, 76, 188);
+}
+.home-page-link{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns:  1fr 1fr  ;
+}
+.home-page-info{
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight: 200;
+    transition: all 1s;
+    margin-left: 80px;
+    margin-right: 80px;
+    background: linear-gradient(135deg, #5335cf 0%, #de005e 25%, #f66e48 50%, #de005e 75%, #5335cf 100%);
+  background-size: 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  animation: animate 10s linear infinite;
+}
+@keyframes animate {
+    from {
+        -webkit-filter: hue-rotate(0deg);
+      }
+      to {
+        -webkit-filter: hue-rotate(-360deg);
+      }
+}
+.home-page-moreinfo{
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+    color: rgb(5, 14, 2);
+    text-shadow: 0 0 10px peachpuff,
+    0 0 20px rgb(76, 99, 228),
+    0 0 40px rgb(76, 99, 228),
+    0 0 60px rgb(76, 99, 228),
+    0 0 10px rgb(76, 99, 228);
+}
+
+/* .home-page-info:hover{
+    border: 1.5px solid black;
+} */

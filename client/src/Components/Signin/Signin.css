@@ -1,0 +1,40 @@
+.signup{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup-card{
+    background-color: rgb(199, 214, 214);
+    display: grid;
+    grid-template-rows: 1fr 1fr 80px;
+    width: 600px;
+    height: 600px;
+    border: 2px solid black;
+    transition: all 5sec;
+    margin-top: 100px;
+}
+.signup-card:hover{
+    box-shadow: 3px 5px rgb(34, 31, 31);
+    
+}
+.signup-card-1{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.signup-card-2 form{
+    display: grid;
+    justify-content: center;
+    grid-gap: 10px;
+}
+.form-button{
+    display: grid;
+    justify-content: center;
+    padding-top: 40px;
+}
+.signup-card-2 input{
+    width: 400px;
+    font-size: 20px;
+}

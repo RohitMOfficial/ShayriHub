@@ -1,0 +1,56 @@
+
+.username{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    font-size: 20px;
+}
+
+.mainnav{
+    background: linear-gradient(270deg, #664724, #f99a2f, #93d439, #2e93d7, #ee22cb);
+    background-size: 1000% 1000%;
+
+    -webkit-animation: AnimationName 15s ease infinite;
+    -moz-animation: AnimationName 15s ease infinite;
+    animation: AnimationName 15s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:35% 0%}
+    50%{background-position:66% 100%}
+    100%{background-position:35% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:35% 0%}
+    50%{background-position:66% 100%}
+    100%{background-position:35% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:35% 0%}
+    50%{background-position:66% 100%}
+    100%{background-position:35% 0%}
+}
+
+
+.logo-css{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(248, 251, 245);
+    text-shadow: 0 0 10px rgb(248, 251, 245),
+    0 0 20px rgb(248, 251, 245),
+    0 0 40px rgb(248, 251, 245),
+    0 0 60px rgb(248, 251, 245),
+    0 0 10px rgb(248, 251, 245);
+}
+.all-nav-link{
+    padding-left: 30px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.all-nav-link:focus{
+    outline: orange 5px auto;
+}
+

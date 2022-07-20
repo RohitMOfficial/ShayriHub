@@ -1,0 +1,38 @@
+#title{
+    resize: none;
+    outline: none;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border-color: black;
+}
+#title:is(:focus, :valid){
+    border-color: rgb(205, 73, 17);
+}
+#body{
+    resize: none;
+    outline: none;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border-color: black;
+}
+#body:is(:focus, :valid){
+    border-color: rgb(205, 73, 17);
+}
+#category{
+    resize: none;
+    outline: none;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border-color: black;
+}
+#category:is(:focus, :valid){
+    border-color: rgb(205, 73, 17);
+}
+
+
+textarea::-webkit-scrollbar{
+    width: 0%;
+}
